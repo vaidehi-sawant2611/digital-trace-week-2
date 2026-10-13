@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Trace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DIGITAL TRACE</h1>
+    <p>Forensics meets technology.</p>
+    <header class="topbar">
+    <a href="#home" class="logo">DIGITAL<span>TRACE.</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Investigator</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#lab">Digital Lab</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section id="home" class="hero">
+    <p class="eyebrow">FORENSICS × TECHNOLOGY / PORTFOLIO 001</p>
+
+    <h1>
+        Every trace<br>
+        tells a <span>story.</span>
+    </h1>
+
+    <p class="hero-text">
+        Exploring the intersection of forensic science,
+        digital evidence and technology.
+        Curiosity is the beginning of every investigation.
+    </p>
+
+    <a href="#about" class="button primary">
+        Explore my profile →
+    </a>
+</section>
+<section id="about" class="section">
+    <p class="eyebrow">FILE 01 / INVESTIGATOR PROFILE</p>
+
+    <h2>Meet the <span>investigator.</span></h2>
+
+    <div class="about-grid">
+        <div class="terminal-card">
+            <p class="terminal-symbol">[ VT ]</p>
+            <h3>Vaidehi Sawant</h3>
+            <p>Forensic Science Student</p>
+
+            <hr>
+
+            <p>FIELD: Forensic Science</p>
+            <p>INTEREST: Digital Investigation</p>
+            <p>STATUS: Always Learning</p>
+        </div>
+
+        <div class="about-copy">
+            <h3>Curiosity leaves no stone unturned.</h3>
+
+            <p>
+                I'm a forensic science student fascinated by the
+                details people overlook and the digital traces
+                technology leaves behind.
+            </p>
+
+            <p>
+                I'm exploring digital forensics, cybersecurity
+                and web development while building my practical
+                skills one project at a time.
+            </p>
+
+            <a href="#toolkit" class="text-link">
+                View my toolkit →
+            </a>
+        </div>
+    </div>
+</section>
+<section id="toolkit" class="section">
+    <p class="eyebrow">FILE 02 / TECHNICAL INVENTORY</p>
+
+    <h2>Tools of the <span>trade.</span></h2>
+
+    <p class="section-intro">
+        The technologies I'm learning to turn ideas into
+        interactive digital experiences.
+    </p>
+
+    <div class="toolkit-grid">
+
+        <article class="tool-card">
+            <span class="tool-number">01</span>
+            <h3>HTML</h3>
+            <p>The structure behind every digital experience.</p>
+            <span class="tool-tag">STRUCTURE</span>
+        </article>
+
+        <article class="tool-card">
+            <span class="tool-number">02</span>
+            <h3>CSS</h3>
+            <p>Turning a plain page into a designed interface.</p>
+            <span class="tool-tag">VISUAL DESIGN</span>
+        </article>
+
+        <article class="tool-card">
+            <span class="tool-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Adding logic and interaction to a website.</p>
+            <span class="tool-tag">INTERACTIVITY</span>
+        </article>
+
+    </div>
+</section>
+<section id="toolkit" class="section">
+    <p class="eyebrow">FILE 02 / TECHNICAL INVENTORY</p>
+
+    <h2>Tools of the <span>trade.</span></h2>
+
+    <p class="section-intro">
+        The technologies I'm learning to turn ideas into
+        interactive digital experiences.
+    </p>
+
+    <div class="toolkit-grid">
+
+        <article class="tool-card">
+            <span class="tool-number">01</span>
+            <h3>HTML</h3>
+            <p>The structure behind every digital experience.</p>
+            <span class="tool-tag">STRUCTURE</span>
+        </article>
+
+        <article class="tool-card">
+            <span class="tool-number">02</span>
+            <h3>CSS</h3>
+            <p>Turning a plain page into a designed interface.</p>
+            <span class="tool-tag">VISUAL DESIGN</span>
+        </article>
+
+        <article class="tool-card">
+            <span class="tool-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Adding logic and interaction to a website.</p>
+            <span class="tool-tag">INTERACTIVITY</span>
+        </article>
+
+    </div>
+</section>
+
+<section id="lab" class="section lab-section">
+    <p class="eyebrow">FILE 03 / INTERACTIVE SIMULATION</p>
+    <h2>The digital <span>evidence lab.</span></h2>
+
+    <p class="section-intro">
+        Explore a simulated evidence examination.
+    </p>
+
+    <div class="lab-window">
+        <div class="lab-header">
+            <span>◈ EVIDENCE_ANALYSER</span>
+            <span>SIMULATION MODE</span>
+        </div>
+
+        <div class="evidence-file">
+            <div class="file-symbol">FILE</div>
+
+            <div>
+                <h3>evidence_001.log</h3>
+                <p class="muted">Sample file / Training environment</p>
+            </div>
+
+            <span class="file-status">READY</span>
+        </div>
+
+        <div class="scan-track">
+            <div id="scan-progress"></div>
+        </div>
+
+        <p id="lab-output" aria-live="polite">
+            Awaiting investigator input...
+        </p>
+
+        <button id="scan-button" class="button primary">
+            Begin examination ↗
+        </button>
+
+        <p class="lab-disclaimer">
+            Educational simulation only. No real files are examined.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <p class="eyebrow">FILE 04 / ESTABLISH CONNECTION</p>
+    <h2>Let's connect<span>.</span></h2>
+
+    <p class="section-intro">
+        Have a project, an idea, or an interesting topic
+        in digital forensics? Send a message.
+    </p>
+
+    <form id="contact-form">
+        <label for="visitor-name">Your name</label>
+        <input
+            type="text"
+            id="visitor-name"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+        <label for="visitor-email">Your email</label>
+        <input
+            type="email"
+            id="visitor-email"
+            name="email"
+            placeholder="you@example.com"
+            required
+        >
+
+        <label for="visitor-message">Your message</label>
+        <textarea
+            id="visitor-message"
+            name="message"
+            placeholder="Write your message..."
+            rows="4"
+            required
+        ></textarea>
+
+        <button type="submit" class="button primary">
+            Submit message →
+        </button>
+
+        <p id="form-output" aria-live="polite"></p>
+    </form>
+</section>
+</body>
+
+<footer class="footer">
+    <a href="#home" class="logo">DIGITAL<span>TRACE.</span></a>
+
+    <p>
+        Exploring the evidence hidden in every digital trace.
+    </p>
+
+    <p class="footer-bottom">
+        © 2026 DIGITAL TRACE. Built with curiosity and code.
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
